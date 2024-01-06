@@ -1,0 +1,97 @@
+name: socialv
+description: A new Flutter project.
+publish_to: "none"
+
+version: 3.0.1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Common packages
+  nb_utils: ^5.0.8
+  google_fonts: ^4.0.4
+  cached_network_image: ^3.2.3
+  flutter_spinkit: ^5.2.0
+
+  # Media
+  date_time_picker: ^2.1.0
+  image_picker: ^0.8.7+4
+  file_picker: ^4.6.1
+  just_audio: ^0.9.32
+  syncfusion_flutter_pdfviewer: ^20.4.38
+  photo_view: ^0.14.0
+  appinio_video_player: ^1.2.1
+  giphy_get: ^3.3.1
+  video_player: ^2.6.1
+  youtube_player_flutter: ^8.1.2
+  visibility_detector: ^0.3.3
+
+  # APIs
+  http: ^0.13.6
+  intl: ^0.17.0
+  html: ^0.15.3
+
+  flutter_html: ^2.2.1
+  google_mobile_ads: ^2.4.0
+
+  # State Management Technique
+  mobx: ^2.1.4
+  flutter_mobx: ^2.0.6+5
+
+  # Share
+  share_plus: ^4.0.10
+  flutter_custom_tabs: ^1.0.4
+
+  # Firebase
+  firebase_crashlytics: ^3.2.0
+  firebase_core: ^2.11.0
+  firebase_auth: ^4.5.0
+  firebase_messaging: ^14.5.0
+
+  # AUTHENTICATION
+  google_sign_in: ^6.1.0
+  the_apple_sign_in: ^1.1.1
+
+  # Remote Notification
+  onesignal_flutter: ^3.5.1
+
+  # Story
+  story_time: ^1.0.6
+  numberpicker: ^2.1.2
+
+  path_provider: ^2.0.14
+
+  lottie: ^2.3.2
+  zego_express_engine: ^3.2.0
+
+  permission_handler: ^10.2.0
+  encrypt: ^5.0.1
+  zego_zim: ^2.7.1
+  zego_uikit: ^2.5.9
+  zego_uikit_prebuilt_live_streaming: ^2.8.1
+
+  flutter_localizations:
+    sdk: flutter
+  zego_uikit_signaling_plugin: ^2.1.6
+  # zego_uikit_prebuilt_live_streaming: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.3.3
+  mobx_codegen: ^2.2.0
+  #flutter packages pub run build_runner build --delete-conflicting-outputs
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/flag/
+    - assets/icons/
+    - assets/lottie/
